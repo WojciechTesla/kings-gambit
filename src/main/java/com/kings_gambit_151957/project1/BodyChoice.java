@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class BodyChoice implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public BodyChoice() {
-    }
+	private java.lang.String whichBody;
 
+	public BodyChoice() {
+	}
 
+	public java.lang.String getWhichBody() {
+		return this.whichBody;
+	}
 
+	public void setWhichBody(java.lang.String whichBody) {
+		this.whichBody = whichBody;
+	}
+
+	public BodyChoice(java.lang.String whichBody) {
+		this.whichBody = whichBody;
+	}
 
 }
