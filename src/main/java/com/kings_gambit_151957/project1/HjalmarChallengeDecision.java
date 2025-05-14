@@ -8,21 +8,21 @@ public class HjalmarChallengeDecision implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String selectedOption;
+	private java.lang.Boolean accept;
 
 	public HjalmarChallengeDecision() {
 	}
 
-	public java.lang.String getSelectedOption() {
-		return this.selectedOption;
+	public java.lang.Boolean getAccept() {
+		return this.accept;
 	}
 
-	public void setSelectedOption(java.lang.String selectedOption) {
-		this.selectedOption = selectedOption;
+	public void setAccept(java.lang.Boolean accept) {
+		this.accept = accept;
 	}
 
-	public HjalmarChallengeDecision(java.lang.String selectedOption) {
-		this.selectedOption = selectedOption;
+	public HjalmarChallengeDecision(java.lang.Boolean accept) {
+		this.accept = accept;
 	}
 
 }
