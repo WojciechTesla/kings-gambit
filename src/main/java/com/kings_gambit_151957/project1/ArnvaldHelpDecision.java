@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class ArnvaldHelpDecision implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ArnvaldHelpDecision() {
-    }
+	private java.lang.Boolean help;
 
+	public ArnvaldHelpDecision() {
+	}
 
+	public java.lang.Boolean getHelp() {
+		return this.help;
+	}
 
+	public void setHelp(java.lang.Boolean help) {
+		this.help = help;
+	}
+
+	public ArnvaldHelpDecision(java.lang.Boolean help) {
+		this.help = help;
+	}
 
 }
