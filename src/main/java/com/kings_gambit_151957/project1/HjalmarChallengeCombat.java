@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class HjalmarChallengeCombat implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public HjalmarChallengeCombat() {
-    }
+	private java.lang.Boolean win;
 
+	public HjalmarChallengeCombat() {
+	}
 
+	public java.lang.Boolean getWin() {
+		return this.win;
+	}
 
+	public void setWin(java.lang.Boolean win) {
+		this.win = win;
+	}
+
+	public HjalmarChallengeCombat(java.lang.Boolean win) {
+		this.win = win;
+	}
 
 }
