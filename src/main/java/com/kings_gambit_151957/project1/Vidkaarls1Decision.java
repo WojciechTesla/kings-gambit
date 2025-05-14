@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class Vidkaarls1Decision implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Vidkaarls1Decision() {
-    }
+	private java.lang.Boolean accept;
 
+	public Vidkaarls1Decision() {
+	}
 
+	public java.lang.Boolean getAccept() {
+		return this.accept;
+	}
 
+	public void setAccept(java.lang.Boolean accept) {
+		this.accept = accept;
+	}
+
+	public Vidkaarls1Decision(java.lang.Boolean accept) {
+		this.accept = accept;
+	}
 
 }
