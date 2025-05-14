@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class ExamineChoice implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ExamineChoice() {
-    }
+	private java.lang.Boolean examineBear;
 
+	public ExamineChoice() {
+	}
 
+	public java.lang.Boolean getExamineBear() {
+		return this.examineBear;
+	}
 
+	public void setExamineBear(java.lang.Boolean examineBear) {
+		this.examineBear = examineBear;
+	}
+
+	public ExamineChoice(java.lang.Boolean examineBear) {
+		this.examineBear = examineBear;
+	}
 
 }
