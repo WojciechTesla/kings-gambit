@@ -8,7 +8,21 @@ public class Vidkaarls2Combat implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	private java.lang.Boolean win;
+
 	public Vidkaarls2Combat() {
+	}
+
+	public java.lang.Boolean getWin() {
+		return this.win;
+	}
+
+	public void setWin(java.lang.Boolean win) {
+		this.win = win;
+	}
+
+	public Vidkaarls2Combat(java.lang.Boolean win) {
+		this.win = win;
 	}
 
 }
