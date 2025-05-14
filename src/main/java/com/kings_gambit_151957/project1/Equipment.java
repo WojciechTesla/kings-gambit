@@ -6,12 +6,54 @@ package com.kings_gambit_151957.project1;
 
 public class Equipment implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Equipment() {
-    }
+	private java.lang.Integer gold;
+	private java.lang.Integer experience;
+	private java.util.List<java.lang.String> items;
+	private java.lang.Boolean skillPoint;
 
+	public Equipment() {
+	}
 
+	public java.lang.Integer getGold() {
+		return this.gold;
+	}
 
+	public void setGold(java.lang.Integer gold) {
+		this.gold = gold;
+	}
+
+	public java.lang.Integer getExperience() {
+		return this.experience;
+	}
+
+	public void setExperience(java.lang.Integer experience) {
+		this.experience = experience;
+	}
+
+	public java.util.List<java.lang.String> getItems() {
+		return this.items;
+	}
+
+	public void setItems(java.util.List<java.lang.String> items) {
+		this.items = items;
+	}
+
+	public java.lang.Boolean getSkillPoint() {
+		return this.skillPoint;
+	}
+
+	public void setSkillPoint(java.lang.Boolean skillPoint) {
+		this.skillPoint = skillPoint;
+	}
+
+	public Equipment(java.lang.Integer gold, java.lang.Integer experience,
+			java.util.List<java.lang.String> items, java.lang.Boolean skillPoint) {
+		this.gold = gold;
+		this.experience = experience;
+		this.items = items;
+		this.skillPoint = skillPoint;
+	}
 
 }
