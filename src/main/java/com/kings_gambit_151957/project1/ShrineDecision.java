@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class ShrineDecision implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ShrineDecision() {
-    }
+	private java.lang.Boolean examine;
 
+	public ShrineDecision() {
+	}
 
+	public java.lang.Boolean getExamine() {
+		return this.examine;
+	}
 
+	public void setExamine(java.lang.Boolean examine) {
+		this.examine = examine;
+	}
+
+	public ShrineDecision(java.lang.Boolean examine) {
+		this.examine = examine;
+	}
 
 }
