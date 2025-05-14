@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class ArnvaldLocationChoice implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ArnvaldLocationChoice() {
-    }
+	private java.lang.String location;
 
+	public ArnvaldLocationChoice() {
+	}
 
+	public java.lang.String getLocation() {
+		return this.location;
+	}
 
+	public void setLocation(java.lang.String location) {
+		this.location = location;
+	}
+
+	public ArnvaldLocationChoice(java.lang.String location) {
+		this.location = location;
+	}
 
 }
