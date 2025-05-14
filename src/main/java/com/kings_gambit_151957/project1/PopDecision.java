@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class PopDecision implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public PopDecision() {
-    }
+	private java.lang.Boolean visitPlaceOfPower;
 
+	public PopDecision() {
+	}
 
+	public java.lang.Boolean getVisitPlaceOfPower() {
+		return this.visitPlaceOfPower;
+	}
 
+	public void setVisitPlaceOfPower(java.lang.Boolean visitPlaceOfPower) {
+		this.visitPlaceOfPower = visitPlaceOfPower;
+	}
+
+	public PopDecision(java.lang.Boolean visitPlaceOfPower) {
+		this.visitPlaceOfPower = visitPlaceOfPower;
+	}
 
 }
