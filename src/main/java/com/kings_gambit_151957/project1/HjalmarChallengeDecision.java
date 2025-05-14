@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class HjalmarChallengeDecision implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public HjalmarChallengeDecision() {
-    }
+	private java.lang.String selectedOption;
 
+	public HjalmarChallengeDecision() {
+	}
 
+	public java.lang.String getSelectedOption() {
+		return this.selectedOption;
+	}
 
+	public void setSelectedOption(java.lang.String selectedOption) {
+		this.selectedOption = selectedOption;
+	}
+
+	public HjalmarChallengeDecision(java.lang.String selectedOption) {
+		this.selectedOption = selectedOption;
+	}
 
 }
