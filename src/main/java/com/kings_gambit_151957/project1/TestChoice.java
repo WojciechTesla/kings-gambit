@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class TestChoice implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public TestChoice() {
-    }
+	private java.lang.String decision;
 
+	public TestChoice() {
+	}
 
+	public java.lang.String getDecision() {
+		return this.decision;
+	}
 
+	public void setDecision(java.lang.String decision) {
+		this.decision = decision;
+	}
+
+	public TestChoice(java.lang.String decision) {
+		this.decision = decision;
+	}
 
 }
