@@ -3,6 +3,7 @@ package com.kings_gambit_151957.project1;
 import java.lang.Number;
 
 rule "TestRule1"
+	ruleflow-group "test1"
 	dialect "mvel"
 	when
 		choice : TestChoice( decision == "yes" )
