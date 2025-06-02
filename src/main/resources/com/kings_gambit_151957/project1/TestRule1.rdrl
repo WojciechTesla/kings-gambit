@@ -6,10 +6,11 @@ rule "TestRule1"
 	dialect "mvel"
 	ruleflow-group "test1"
 	when
-		TestChoice( decision == "yes" )
+		choice : TestChoice( decision == "yes" )
 	then
-		TestEquipment fact0 = new TestEquipment();
-		fact0.setExperience( 50 );
-		insert( fact0 );
-		insert( new TestEquipment() );
+		TestEquipment equipment = new TestEquipment();
+		equipment.setExperience( 50 );
+		equipment.setSkillPoint( true );
+		equipment.setItems( Hjalmar's sword );
+		insert( equipment );
 end
