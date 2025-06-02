@@ -10,5 +10,8 @@ rule "TestRule1"
 		>equipment : TestEquipment( items != null )
 	then
 		>equipment.setExperience( 50 );
+		>if (equipment.getItems() == null) {
+		>    equipment.setItems(new java.util.ArrayList());
+		>}
 		>equipment.getItems().add("Hjalmar's Sword");
 end
