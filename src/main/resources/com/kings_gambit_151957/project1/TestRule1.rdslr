@@ -10,5 +10,5 @@ rule "TestRule1"
 		>equipment : TestEquipment( items != null )
 	then
 		>equipment.setExperience( 50 );
-		>equipment.getItems().add("Hjalmar's Sword");
+		>equipment.setItems(equipment.getItems().add("Hjalmar's Sword"););
 end
