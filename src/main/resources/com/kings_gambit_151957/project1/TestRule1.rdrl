@@ -4,13 +4,12 @@ import java.lang.Number;
 
 rule "TestRule1"
 	dialect "mvel"
-	ruleflow-group "test1"
 	when
 		choice : TestChoice( decision == "yes" )
 	then
 		TestEquipment equipment = new TestEquipment();
-		equipment.setExperience( 50 );
-		equipment.setSkillPoint( true );
-		equipment.setItems( Hjalmar's sword );
-		insert( equipment );
+				equipment.setExperience( 50 );
+				equipment.setSkillPoint( true );
+				equipment.setItems( Hjalmar's sword );
+				insert( equipment );
 end
