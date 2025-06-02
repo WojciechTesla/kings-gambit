@@ -10,5 +10,5 @@ rule "TestRule1"
 		>equipment : TestEquipment( )
 	then
 		>equipment.setExperience( 50 );
-		>equipment.setItems( xdd );
+		>System.out.println("hello");
 end
