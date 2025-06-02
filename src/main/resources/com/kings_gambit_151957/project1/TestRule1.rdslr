@@ -9,5 +9,7 @@ rule "TestRule1"
 		>choice : TestChoice( decision == "yes" )
 		>equipment : TestEquipment( )
 	then
-		>equipment.setExperience( +50 );
+		>modify( equipment ) {
+				>setExperience( 50 )
+		>}
 end
