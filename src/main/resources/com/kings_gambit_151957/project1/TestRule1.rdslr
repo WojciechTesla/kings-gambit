@@ -6,5 +6,8 @@ rule "TestRule1"
 	dialect "mvel"
 	ruleflow-group "test1"
 	when
+		>choice : TestChoice( decision == "yes" )
+		>equipment : TestEquipment( )
 	then
+		>equipment.setExperience( expeirence += 50 );
 end
