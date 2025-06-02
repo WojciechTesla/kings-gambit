@@ -72,7 +72,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>228</width>
-      <header>xdd</header>
+      <header>skillPoint</header>
       <factType>TestEquipment</factType>
       <boundName>equipment</boundName>
       <factField>skillPoint</factField>
