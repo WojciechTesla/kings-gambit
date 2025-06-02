@@ -10,6 +10,6 @@ rule "TestRule1"
 		>equipment : TestEquipment( )
 	then
 		>equipment.setExperience( 50 );
-		>if (equipemnt.getItems.isEmpty() == true){ equipment.setItems(new List<String>());
+		>if (equipemnt.getItems().isEmpty() == true){ equipment.setItems(new List<String>());
 		>};equipment.getItems().add("Hjalmar's Sword");
 end
