@@ -7,11 +7,8 @@ rule "TestRule1"
 	ruleflow-group "test1"
 	when
 		>choice : TestChoice( decision == "yes" )
-		>equipment : TestEquipment( )
+		>equipment : TestEquipment( items != null )
 	then
 		>equipment.setExperience( 50 );
-		>if (equipment.getItems() == null) {
-		>    equipment.setItems(new java.util.ArrayList<String>());
-		>}
 		>equipment.getItems().add("Hjalmar's Sword");
 end
