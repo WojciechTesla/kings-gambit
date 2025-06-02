@@ -4,7 +4,12 @@ import java.lang.Number;
 
 rule "TestRule1"
 	dialect "mvel"
-	ruleflow-group ""
+	ruleflow-group "test1"
 	when
+		TestChoice( decision == "yes" )
 	then
+		TestEquipment fact0 = new TestEquipment();
+		fact0.setExperience( 50 );
+		insert( fact0 );
+		insert( new TestEquipment() );
 end
