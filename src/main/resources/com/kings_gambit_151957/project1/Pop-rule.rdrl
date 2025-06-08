@@ -4,6 +4,9 @@ import java.lang.Number;
 
 rule "Pop-rule"
 	dialect "mvel"
+	ruleflow-group "pop"
 	when
+		Equipment : Equipment( this != null )
 	then
+		Equipment.setSkillPoint( true );
 end
