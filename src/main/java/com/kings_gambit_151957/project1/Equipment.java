@@ -56,15 +56,5 @@ public class Equipment implements java.io.Serializable {
 		this.skillPoint = skillPoint;
 	}
 	
-	public void removeFirstSword() {
-    if (items == null) return;
-    for (Iterator<String> iterator = items.iterator(); iterator.hasNext(); ) {
-        String item = iterator.next();
-        if (item.contains("Sword") || item.contains("sword")) {
-            iterator.remove();
-            break;
-        }
-    }
-}
 
 }
