@@ -8,7 +8,5 @@ rule "crach-first-talk"
 	when
 		Equipment : Equipment( this != null , experience != null )
 	then
-		modify( Equipment ) {
-				setExperience( a += 20 )
-		}
+		Equipment.setExperience(Equipment.getExperience() + 500); Equipment.getItems().add("Fate silver sword");
 end
