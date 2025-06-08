@@ -1,0 +1,9 @@
+package com.kings_gambit_151957.project1;
+
+import java.lang.Number;
+
+rule "crach-first-talk"
+	dialect "mvel"
+	when
+	then
+end
