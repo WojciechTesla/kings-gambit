@@ -458,10 +458,11 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <header>Give Hjalmar first of your swords</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>for (Iterator itemIterator = Equipment.getItems().iterator(); itemIterator.hasNext(); ) {
-    String item = (String) itemIterator.next();
+          <text>List items = Equipment.getItems();
+for (int i = 0; i &lt; items.size(); i++) {
+    String item = (String) items.get(i);
     if (item.contains(&quot;Sword&quot;) || item.contains(&quot;sword&quot;)) {
-        itemIterator.remove();
+        items.remove(i);
         break;
     }
 }</text>
@@ -476,7 +477,7 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>281</width>
+          <width>100</width>
           <header>Give Hjalmar first of your swords</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
