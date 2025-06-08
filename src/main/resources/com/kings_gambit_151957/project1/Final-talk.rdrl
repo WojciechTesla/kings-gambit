@@ -1,0 +1,9 @@
+package com.kings_gambit_151957.project1;
+
+import java.lang.Number;
+
+rule "Final-talk"
+	dialect "mvel"
+	when
+	then
+end
