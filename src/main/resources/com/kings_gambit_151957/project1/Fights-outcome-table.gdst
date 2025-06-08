@@ -21,7 +21,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>498</width>
+      <width>649</width>
       <attribute>ruleflow-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
@@ -197,7 +197,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>137</width>
           <header>HJalmar Combat Action</header>
           <constraintValueType>1</constraintValueType>
           <factField>skillPoint</factField>
@@ -408,7 +408,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>HJalmar-Win</valueString>
+        <valueString>Vildkaarls Two wins</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -442,6 +442,201 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Vildkaarls Three wins</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>fights-outcome</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Vildkaarls One win</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>fights-outcome</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Hjalmar-Sword</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>fights-outcome</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -462,7 +657,7 @@
     </list>
     <list>
       <value>
-        <valueNumeric class="int">2</valueNumeric>
+        <valueNumeric class="int">5</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -501,53 +696,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-    </list>
-    <list>
-      <value>
-        <valueNumeric class="int">3</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Hjalmar-Sword</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>fights-outcome</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -567,154 +715,6 @@
       </value>
       <value>
         <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-    </list>
-    <list>
-      <value>
-        <valueNumeric class="int">4</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Vildkaarls One win</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>fights-outcome</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-    </list>
-    <list>
-      <value>
-        <valueNumeric class="int">5</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Vildkaarls Three wins</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>fights-outcome</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -733,7 +733,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Vildkaarls Two wins</valueString>
+        <valueString>HJalmar-Win</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -749,12 +749,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -773,7 +767,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
