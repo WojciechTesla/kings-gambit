@@ -458,10 +458,13 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <header>Give Hjalmar first of your swords</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>for (int i = 0; i &lt; Equipment.getItems().size(); i++) {
-    if (Equipment.getItems().get(i).contains(&quot;Sword&quot;) || Equipment.getItems().get(i).contains(&quot;sword&quot;)) {
-        Equipment.getItems().remove(i);
-        break;
+          <text>foreach (item in Equipment.getItems()) {
+    if (item.contains(&quot;Sword&quot;) || item.contains(&quot;sword&quot;)) {
+        Equipment.getItems().remove(item);
+        // Cannot use break — so just exit loop by returning from the rule (optional)
+        // or rely on the fact that we removed one item → next iteration won&apos;t match anymore.
+        // In practice this is enough in Guided DT.
+        return;
     }
 }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
