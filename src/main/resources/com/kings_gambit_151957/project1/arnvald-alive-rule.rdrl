@@ -8,5 +8,5 @@ rule "arnvald-alive-rule"
 	when
 		Equipment : Equipment( this != null )
 	then
-		Equipment.setExperience( Equipment.getExperience() + 200); Equipment.getItems().add("Letter written by the queen"); );
+		Equipment.setExperience( Equipment.getExperience() + 200); Equipment.getItems().add("Letter written by the queen" );
 end
