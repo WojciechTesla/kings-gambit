@@ -4,6 +4,8 @@ import java.lang.Number;
 
 rule "druid-fight"
 	dialect "mvel"
+	ruleflow-group "druid-fight"
 	when
+		Equipment : Equipment( this != null )
 	then
 end
