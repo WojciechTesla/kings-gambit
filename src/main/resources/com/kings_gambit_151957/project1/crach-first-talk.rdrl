@@ -8,4 +8,7 @@ rule "crach-first-talk"
 	when
 		Equipment : Equipment( this != null , experience != null )
 	then
+		modify( Equipment ) {
+				setExperience( a += 20 )
+		}
 end
