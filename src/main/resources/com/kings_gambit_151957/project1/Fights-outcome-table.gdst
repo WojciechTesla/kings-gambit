@@ -392,7 +392,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>174</width>
           <header>Set expiriance value</header>
           <varName>$exp</varName>
           <fieldType>Integer</fieldType>
@@ -408,7 +408,7 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>Equipment.setExperience(Equipment.getExperience() + 100);
-Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
+Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -420,8 +420,64 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>143</width>
           <header>Hjalmar win actions - get exp and sword</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Give Hjalmar gold</header>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>Equipment.setGold(Equipment.getGold() - 350);</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+          <typedDefaultValue>
+            <valueBoolean>false</valueBoolean>
+            <valueString></valueString>
+            <dataType>BOOLEAN</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>150</width>
+          <header>Give Hjalmar gold</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Give Hjalmar first of your swords</header>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>for (Iterator itemIterator = Equipment.getItems().iterator(); itemIterator.hasNext(); ) {
+    String item = (String) itemIterator.next();
+    if (item.contains(&quot;Sword&quot;) || item.contains(&quot;sword&quot;)) {
+        itemIterator.remove();
+        break;
+    }
+}</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+          <typedDefaultValue>
+            <valueBoolean>false</valueBoolean>
+            <valueString></valueString>
+            <dataType>BOOLEAN</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>281</width>
+          <header>Give Hjalmar first of your swords</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
@@ -539,6 +595,18 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -608,6 +676,18 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
         <valueNumeric class="int">150</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -693,6 +773,18 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -762,6 +854,18 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
         <valueNumeric class="int">0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -846,6 +950,18 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -914,6 +1030,18 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -994,6 +1122,18 @@ Equipment.getItems().add(&quot;Hjalmar sword&quot;);</text>
       </value>
       <value>
         <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
