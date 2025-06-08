@@ -8,4 +8,5 @@ rule "druid-fight"
 	when
 		Equipment : Equipment( this != null )
 	then
+		Equipment.setExperience(Equipment.getExperience() + 300);
 end
