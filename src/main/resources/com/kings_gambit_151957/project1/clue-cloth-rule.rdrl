@@ -8,4 +8,5 @@ rule "clue-cloth-rule"
 	when
 		Equipment : Equipment( this != null )
 	then
+		Equipment.setExperience(Equipment.getExperience() + 300); Equipment.getItems().add("Arnvald's cloth");
 end
