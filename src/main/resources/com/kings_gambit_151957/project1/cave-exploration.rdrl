@@ -8,4 +8,5 @@ rule "cave-exploration"
 	when
 		Equipment : Equipment( this != null )
 	then
+		Equipment.setExperience(Equipment.getExperience() + 200);
 end
