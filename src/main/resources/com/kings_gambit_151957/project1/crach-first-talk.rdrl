@@ -4,6 +4,8 @@ import java.lang.Number;
 
 rule "crach-first-talk"
 	dialect "mvel"
+	ruleflow-group "crach-first-talk"
 	when
+		Equipment : Equipment( this != null , experience != null )
 	then
 end
