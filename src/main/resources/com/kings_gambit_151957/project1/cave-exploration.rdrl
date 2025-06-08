@@ -4,6 +4,8 @@ import java.lang.Number;
 
 rule "cave-exploration"
 	dialect "mvel"
+	ruleflow-group "cave-exploration"
 	when
+		Equipment : Equipment( this != null )
 	then
 end
