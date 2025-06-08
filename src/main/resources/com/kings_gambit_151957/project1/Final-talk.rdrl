@@ -8,5 +8,5 @@ rule "Final-talk"
 	when
 		Equipment : Equipment( this != null )
 	then
-		Equipment.setExperience(Equipment.getExperience() + 100);
+		Equipment.setExperience(Equipment.getExperience() + 400); Equipment.getItems().add("Death From Above crossbow");
 end
