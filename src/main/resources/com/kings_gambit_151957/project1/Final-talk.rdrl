@@ -4,6 +4,9 @@ import java.lang.Number;
 
 rule "Final-talk"
 	dialect "mvel"
+	ruleflow-group "final-talk"
 	when
+		Equipment : Equipment( this != null )
 	then
+		Equipment.setExperience(Equipment.getExperience() + 100);
 end
