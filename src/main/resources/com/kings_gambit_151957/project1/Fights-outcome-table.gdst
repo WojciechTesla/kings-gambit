@@ -131,7 +131,7 @@
               <constraintList>
                 <constraints>
                   <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                    <value>$HCD</value>
+                    <value>$HCD_IS_NOT_NULL</value>
                     <operator>!= null</operator>
                     <constraintValueType>7</constraintValueType>
                     <expression>
@@ -204,7 +204,7 @@
           <fieldType>HjalmarChallengeDecision</fieldType>
           <operator>!= null</operator>
           <parameters/>
-          <varName>$HCD</varName>
+          <varName>$HCD_IS_NOT_NULL</varName>
           <factType>HjalmarChallengeDecision</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
@@ -619,7 +619,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -684,7 +684,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -749,7 +749,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
