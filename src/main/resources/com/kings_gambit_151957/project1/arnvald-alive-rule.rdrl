@@ -4,6 +4,9 @@ import java.lang.Number;
 
 rule "arnvald-alive-rule"
 	dialect "mvel"
+	ruleflow-group "arnvald-alive"
 	when
+		Equipment : Equipment( this != null )
 	then
+		Equipment.setExperience(Equipment.getExperience() + 200); Equipment.getItems().add("Letter written by the queen");
 end
