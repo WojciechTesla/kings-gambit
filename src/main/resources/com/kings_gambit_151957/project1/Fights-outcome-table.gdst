@@ -67,6 +67,106 @@
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>HJalmar Combat Action</header>
+      <constraintValueType>1</constraintValueType>
+      <parameters/>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.CompositeFactPattern>
+          <type>or</type>
+          <patterns>
+            <org.drools.workbench.models.datamodel.rule.FactPattern>
+              <constraintList>
+                <constraints>
+                  <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                    <value>$HCC</value>
+                    <operator>==</operator>
+                    <constraintValueType>7</constraintValueType>
+                    <expression>
+                      <parts/>
+                      <index>2147483647</index>
+                    </expression>
+                    <parameters/>
+                    <factType>HjalmarChallengeCombat</factType>
+                    <fieldName>win</fieldName>
+                    <fieldType>Boolean</fieldType>
+                  </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                </constraints>
+              </constraintList>
+              <factType>HjalmarChallengeCombat</factType>
+              <boundName>HCC</boundName>
+              <isNegated>false</isNegated>
+              <window>
+                <parameters/>
+              </window>
+            </org.drools.workbench.models.datamodel.rule.FactPattern>
+            <org.drools.workbench.models.datamodel.rule.FactPattern>
+              <constraintList>
+                <constraints>
+                  <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                    <value>$GSC</value>
+                    <operator>==</operator>
+                    <constraintValueType>7</constraintValueType>
+                    <expression>
+                      <parts/>
+                      <index>2147483647</index>
+                    </expression>
+                    <parameters/>
+                    <factType>GiveSword</factType>
+                    <fieldName>GSC</fieldName>
+                    <fieldType>Boolean</fieldType>
+                  </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                </constraints>
+              </constraintList>
+              <factType>GiveSword</factType>
+              <boundName>GSC</boundName>
+              <isNegated>false</isNegated>
+              <window>
+                <parameters/>
+              </window>
+            </org.drools.workbench.models.datamodel.rule.FactPattern>
+          </patterns>
+        </org.drools.workbench.models.datamodel.rule.CompositeFactPattern>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>BOOLEAN</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>HJalmar Combat Action</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>win</factField>
+          <fieldType>Boolean</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <varName>$HCC</varName>
+          <factType>HjalmarChallengeCombat</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>BOOLEAN</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>HJalmar Combat Action</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>GSC</factField>
+          <fieldType>Boolean</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <varName>$GSC</varName>
+          <factType>GiveSword</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols/>
   <auditLog>
