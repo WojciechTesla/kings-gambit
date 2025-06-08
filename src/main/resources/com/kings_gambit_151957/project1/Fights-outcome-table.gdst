@@ -152,6 +152,13 @@
                 <parameters/>
               </window>
             </org.drools.workbench.models.datamodel.rule.FactPattern>
+            <org.drools.workbench.models.datamodel.rule.FromAccumulateCompositeFactPattern>
+              <expression>
+                <parts/>
+                <index>2147483647</index>
+              </expression>
+              <function>true</function>
+            </org.drools.workbench.models.datamodel.rule.FromAccumulateCompositeFactPattern>
           </patterns>
         </org.drools.workbench.models.datamodel.rule.CompositeFactPattern>
       </definition>
