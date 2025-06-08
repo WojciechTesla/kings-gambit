@@ -6,12 +6,23 @@ package com.kings_gambit_151957.project1;
 
 public class GiveSword implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public GiveSword() {
-    }
+	private java.lang.Boolean GSC;
 
+	public GiveSword() {
+	}
 
+	public java.lang.Boolean getGSC() {
+		return this.GSC;
+	}
 
+	public void setGSC(java.lang.Boolean GSC) {
+		this.GSC = GSC;
+	}
+
+	public GiveSword(java.lang.Boolean GSC) {
+		this.GSC = GSC;
+	}
 
 }
