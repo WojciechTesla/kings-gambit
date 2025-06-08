@@ -458,7 +458,7 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <header>Give Hjalmar first of your swords</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>int i = Equipment.getItems().size();</text>
+          <text>Equipment.getItems().remove(Equipment.getItems().stream().filter(item -&gt; item.contains(&quot;Sword&quot;) || item.contains(&quot;sword&quot;)).findFirst().orElse(null));</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
