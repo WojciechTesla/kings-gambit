@@ -129,31 +129,6 @@
             </org.drools.workbench.models.datamodel.rule.FactPattern>
           </patterns>
         </org.drools.workbench.models.datamodel.rule.CompositeFactPattern>
-        <org.drools.workbench.models.datamodel.rule.FactPattern>
-          <constraintList>
-            <constraints>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                <value>true</value>
-                <operator>==</operator>
-                <constraintValueType>1</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>HjalmarChallengeDecision</factType>
-                <fieldName>accept</fieldName>
-                <fieldType>Boolean</fieldType>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-            </constraints>
-          </constraintList>
-          <factType>HjalmarChallengeDecision</factType>
-          <boundName>HCD</boundName>
-          <isNegated>false</isNegated>
-          <window>
-            <parameters/>
-          </window>
-        </org.drools.workbench.models.datamodel.rule.FactPattern>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
@@ -391,7 +366,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Hjalmar-Win</valueString>
+        <valueString>HJalmar-Win</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -407,7 +382,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -450,7 +425,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Hjalmar-Lose-Sword</valueString>
+        <valueString>Hjalmar-Sword</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -472,7 +447,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
