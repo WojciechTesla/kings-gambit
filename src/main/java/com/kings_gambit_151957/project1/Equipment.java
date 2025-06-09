@@ -11,7 +11,7 @@ public class Equipment implements java.io.Serializable {
 	private java.lang.Integer gold;
 	private java.lang.Integer experience;
 	private java.util.List<java.lang.String> items;
-	private java.lang.Boolean skillPoint;
+	private String skillPoint;
 
 	public Equipment() {
 	}
@@ -40,21 +40,20 @@ public class Equipment implements java.io.Serializable {
 		this.items = items;
 	}
 
-	public java.lang.Boolean getSkillPoint() {
+	public java.lang.String getSkillPoint() {
 		return this.skillPoint;
 	}
 
-	public void setSkillPoint(java.lang.Boolean skillPoint) {
+	public void setSkillPoint(java.lang.String skillPoint) {
 		this.skillPoint = skillPoint;
 	}
 
 	public Equipment(java.lang.Integer gold, java.lang.Integer experience,
-			java.util.List<java.lang.String> items, java.lang.Boolean skillPoint) {
+			java.util.List<java.lang.String> items, java.lang.String skillPoint) {
 		this.gold = gold;
 		this.experience = experience;
 		this.items = items;
 		this.skillPoint = skillPoint;
 	}
-	
 
 }
