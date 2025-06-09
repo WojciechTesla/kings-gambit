@@ -8,21 +8,21 @@ public class PopDecision implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean visitPlaceOfPower;
+	private java.lang.String decision;
 
 	public PopDecision() {
 	}
 
-	public java.lang.Boolean getVisitPlaceOfPower() {
-		return this.visitPlaceOfPower;
+	public java.lang.String getDecision() {
+		return this.decision;
 	}
 
-	public void setVisitPlaceOfPower(java.lang.Boolean visitPlaceOfPower) {
-		this.visitPlaceOfPower = visitPlaceOfPower;
+	public void setDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
-	public PopDecision(java.lang.Boolean visitPlaceOfPower) {
-		this.visitPlaceOfPower = visitPlaceOfPower;
+	public PopDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
 }
