@@ -8,21 +8,21 @@ public class ExamineDecision implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean examineBear;
+	private java.lang.String decision;
 
 	public ExamineDecision() {
 	}
 
-	public java.lang.Boolean getExamineBear() {
-		return this.examineBear;
+	public java.lang.String getDecision() {
+		return this.decision;
 	}
 
-	public void setExamineBear(java.lang.Boolean examineBear) {
-		this.examineBear = examineBear;
+	public void setDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
-	public ExamineDecision(java.lang.Boolean examineBear) {
-		this.examineBear = examineBear;
+	public ExamineDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
 }
