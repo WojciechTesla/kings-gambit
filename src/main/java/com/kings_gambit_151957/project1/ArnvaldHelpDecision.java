@@ -8,21 +8,21 @@ public class ArnvaldHelpDecision implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean help;
+	private java.lang.String decision;
 
 	public ArnvaldHelpDecision() {
 	}
 
-	public java.lang.Boolean getHelp() {
-		return this.help;
+	public java.lang.String getDecision() {
+		return this.decision;
 	}
 
-	public void setHelp(java.lang.Boolean help) {
-		this.help = help;
+	public void setDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
-	public ArnvaldHelpDecision(java.lang.Boolean help) {
-		this.help = help;
+	public ArnvaldHelpDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
 }
