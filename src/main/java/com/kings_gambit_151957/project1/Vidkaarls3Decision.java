@@ -8,21 +8,21 @@ public class Vidkaarls3Decision implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean accept;
+	private java.lang.String decision;
 
 	public Vidkaarls3Decision() {
 	}
 
-	public java.lang.Boolean getAccept() {
-		return this.accept;
+	public java.lang.String getDecision() {
+		return this.decision;
 	}
 
-	public void setAccept(java.lang.Boolean accept) {
-		this.accept = accept;
+	public void setDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
-	public Vidkaarls3Decision(java.lang.Boolean accept) {
-		this.accept = accept;
+	public Vidkaarls3Decision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
 }
