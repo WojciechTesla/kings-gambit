@@ -8,21 +8,21 @@ public class ShrineDecision implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean examine;
+	private java.lang.String decision;
 
 	public ShrineDecision() {
 	}
 
-	public java.lang.Boolean getExamine() {
-		return this.examine;
+	public java.lang.String getDecision() {
+		return this.decision;
 	}
 
-	public void setExamine(java.lang.Boolean examine) {
-		this.examine = examine;
+	public void setDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
-	public ShrineDecision(java.lang.Boolean examine) {
-		this.examine = examine;
+	public ShrineDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
 }
