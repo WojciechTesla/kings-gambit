@@ -7,7 +7,7 @@ rule "Pop-rule"
 	ruleflow-group "pop"
 	when
 		Equipment : Equipment( this != null )
-		Pop : PopDecision( visitPlaceOfPower == "yes" )
+		Pop : PopDecision( decision == "yes" )
 	then
 		Equipment.setSkillPoint( true );
 end
