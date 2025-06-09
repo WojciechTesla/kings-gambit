@@ -8,21 +8,21 @@ public class Vidkaarls3Combat implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean win;
+	private java.lang.String outcome;
 
 	public Vidkaarls3Combat() {
 	}
 
-	public java.lang.Boolean getWin() {
-		return this.win;
+	public java.lang.String getOutcome() {
+		return this.outcome;
 	}
 
-	public void setWin(java.lang.Boolean win) {
-		this.win = win;
+	public void setOutcome(java.lang.String outcome) {
+		this.outcome = outcome;
 	}
 
-	public Vidkaarls3Combat(java.lang.Boolean win) {
-		this.win = win;
+	public Vidkaarls3Combat(java.lang.String outcome) {
+		this.outcome = outcome;
 	}
 
 }
