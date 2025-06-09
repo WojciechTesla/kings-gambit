@@ -1,0 +1,1 @@
+{"id":"9933be01-9ebd-45dc-b7c1-bcd460171441","name":"shrine-lore-taskform","model":{"taskName":"shrine-lore","processId":"Project1.Questprocess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
