@@ -1,0 +1,1 @@
+{"id":"426e4034-e249-4aaf-9c5d-be843b370e38","name":"Bear-fight-3-taskform","model":{"taskName":"Bear-fight-3","processId":"Project1.Questprocess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
