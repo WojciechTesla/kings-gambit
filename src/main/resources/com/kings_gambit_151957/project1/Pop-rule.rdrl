@@ -9,5 +9,5 @@ rule "Pop-rule"
 		Equipment : Equipment( this != null )
 		Pop : PopDecision( decision == "yes" )
 	then
-		Equipment.setSkillPoint( true );
+		Equipment.setSkillPoint( "1" );
 end
