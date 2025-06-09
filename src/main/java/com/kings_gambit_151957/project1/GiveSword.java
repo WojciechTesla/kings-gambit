@@ -8,21 +8,21 @@ public class GiveSword implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean GSC;
+	private java.lang.String decision;
 
 	public GiveSword() {
 	}
 
-	public java.lang.Boolean getGSC() {
-		return this.GSC;
+	public java.lang.String getDecision() {
+		return this.decision;
 	}
 
-	public void setGSC(java.lang.Boolean GSC) {
-		this.GSC = GSC;
+	public void setDecision(java.lang.String decision) {
+		this.decision = decision;
 	}
 
-	public GiveSword(java.lang.Boolean GSC) {
-		this.GSC = GSC;
+	public GiveSword(java.lang.String decision) {
+		this.decision = decision;
 	}
 
 }
