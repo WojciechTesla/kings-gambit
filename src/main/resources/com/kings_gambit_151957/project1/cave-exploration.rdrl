@@ -6,7 +6,7 @@ rule "cave-exploration"
 	dialect "mvel"
 	ruleflow-group "cave-exploration"
 	when
-		Equipment : Equipment( this != null )
+		geraltEquipment : Equipment( this != null , experience != null )
 	then
-		Equipment.setExperience(Equipment.getExperience() + 200);
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 200 );
 end

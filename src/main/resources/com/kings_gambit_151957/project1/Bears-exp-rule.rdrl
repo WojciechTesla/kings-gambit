@@ -2,9 +2,10 @@ package com.kings_gambit_151957.project1;
 
 import java.lang.Number;
 
-rule "druid-fight"
+rule "Bears-exp-rule"
 	dialect "mvel"
-	ruleflow-group "druid-fight"
+	ruleflow-group "bears-exp"
+	no-loop true
 	when
 		geraltEquipment : Equipment( this != null , experience != null )
 	then

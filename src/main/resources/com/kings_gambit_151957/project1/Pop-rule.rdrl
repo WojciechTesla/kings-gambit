@@ -5,9 +5,9 @@ import java.lang.Number;
 rule "Pop-rule"
 	dialect "mvel"
 	ruleflow-group "pop"
+	no-loop true
 	when
-		Equipment : Equipment( this != null )
-		Pop : PopDecision( decision == "yes" )
+		geraltEquipment : Equipment( this != null , skillPoint != null )
 	then
-		Equipment.setSkillPoint( "1" );
+		geraltEquipment.setSkillPoint("1");update(geraltEquipment);
 end

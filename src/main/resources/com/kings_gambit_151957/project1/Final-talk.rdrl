@@ -6,7 +6,7 @@ rule "Final-talk"
 	dialect "mvel"
 	ruleflow-group "final-talk"
 	when
-		Equipment : Equipment( this != null )
+		geraltEquipment : Equipment( this != null , experience != null , items != null )
 	then
-		Equipment.setExperience(Equipment.getExperience() + 400); Equipment.getItems().add("Death From Above crossbow");
+		geraltEquipment.setExperience(geraltEquipment.getExperience() + 400); geraltEquipment.getItems().add("Death From Above crossbow");
 end

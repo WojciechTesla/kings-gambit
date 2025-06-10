@@ -6,7 +6,7 @@ rule "Arnvald-room"
 	dialect "mvel"
 	ruleflow-group "arnvald-room"
 	when
-		Equipment : Equipment( this != null )
+		geraltEquipment : Equipment( this != null )
 	then
-		Equipment.setExperience(Equipment.getExperience() + 300);Equipment.getItems().add("Letter written by the queen");Equipment.getItems().add("Key to Arnvald's room");
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 300);geraltEquipment.getItems().add("Letter written by the queen");geraltEquipment.getItems().add("Key to Arnvald's room" );
 end
