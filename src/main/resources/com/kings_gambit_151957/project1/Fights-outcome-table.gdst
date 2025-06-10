@@ -461,7 +461,7 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <header>Give Hjalmar first of your swords</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>for(int i=0;i&lt;Equipment.getItems().size();i++){if(Equipment.getItems().get(i).matches(&quot;.*[Ss]word.*&quot;)){Equipment.getItems().remove(i);i+=1000000;}}</text>
+          <text>for(int i=0;i&lt;geraltEquipment.getItems().size();i++){if(geraltEquipment.getItems().get(i).matches(&quot;.*[Ss]word.*&quot;)){Equipment.getItems().remove(i);i+=1000000;}}</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -473,7 +473,7 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>223</width>
+          <width>100</width>
           <header>Give Hjalmar first of your swords</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
