@@ -969,7 +969,7 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>lose</valueString>
+        <valueString>23</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1066,7 +1066,7 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>lose</valueString>
+        <valueString>23</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
