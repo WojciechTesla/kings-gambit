@@ -5,6 +5,7 @@ import java.lang.Number;
 rule "Pop-rule"
 	dialect "mvel"
 	ruleflow-group "pop"
+	no-loop true
 	when
 		geraltEquipment : Equipment( this != null , skillPoint != null )
 	then
