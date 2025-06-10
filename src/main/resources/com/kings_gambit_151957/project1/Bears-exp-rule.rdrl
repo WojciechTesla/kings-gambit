@@ -1,0 +1,12 @@
+package com.kings_gambit_151957.project1;
+
+import java.lang.Number;
+
+rule "Bears-exp-rule"
+	dialect "mvel"
+	ruleflow-group "crach-first-talk"
+	when
+		geraltEquipment : Equipment( this != null , experience != null )
+	then
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 500); geraltEquipment.getItems().add("Fate silver sword" );
+end
