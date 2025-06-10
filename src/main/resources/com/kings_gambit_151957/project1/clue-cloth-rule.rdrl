@@ -8,5 +8,5 @@ rule "clue-cloth-rule"
 	when
 		geraltEquipment : Equipment( this != null )
 	then
-		Equipment.setExperience( Equipment.getExperience() + 300); Equipment.getItems().add("Arnvald's cloth" );
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 300); geraltEquipment.getItems().add("Arnvald's cloth" );
 end
