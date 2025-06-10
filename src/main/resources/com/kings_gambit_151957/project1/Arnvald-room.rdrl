@@ -8,5 +8,5 @@ rule "Arnvald-room"
 	when
 		geraltEquipment : Equipment( this != null )
 	then
-		geraltEquipment.setExperience( gerlatEquipment.getExperience() + 300);gerlatEquipment.getItems().add("Letter written by the queen");geraltEquipment.getItems().add("Key to Arnvald's room" );
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 300);geraltEquipment.getItems().add("Letter written by the queen");geraltEquipment.getItems().add("Key to Arnvald's room" );
 end
