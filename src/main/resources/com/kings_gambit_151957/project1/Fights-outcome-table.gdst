@@ -26,6 +26,19 @@
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </attribute-column52>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>no-loop</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
   </attributeCols>
   <conditionPatterns>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -539,6 +552,12 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>23</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -622,6 +641,12 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <value>
         <valueString>fights-outcome</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -711,6 +736,12 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>23</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -794,6 +825,12 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <value>
         <valueString>fights-outcome</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -883,6 +920,12 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>lose</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -968,6 +1011,12 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>lose</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1050,6 +1099,12 @@ geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <value>
         <valueString>fights-outcome</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
