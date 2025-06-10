@@ -8,5 +8,5 @@ rule "cave-exploration"
 	when
 		geraltEquipment : Equipment( this != null , experience != null )
 	then
-		geraltEquipment.setExperience(geraltEquipment.getExperience() + 200);
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 200 );
 end
