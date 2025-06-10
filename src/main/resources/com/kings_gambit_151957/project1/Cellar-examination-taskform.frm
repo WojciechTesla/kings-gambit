@@ -1,0 +1,1 @@
+{"id":"911aba44-bde1-4c0c-a768-9189ac52c928","name":"Cellar-examination-taskform","model":{"taskName":"Cellar-examination","processId":"Project1.Questprocess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
