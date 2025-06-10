@@ -6,7 +6,7 @@ rule "Pop-rule"
 	dialect "mvel"
 	ruleflow-group "pop"
 	when
-		geraltEquipment : Equipment( this != null )
+		geraltEquipment : Equipment( this != null , skillPoint != null )
 	then
 		geraltEquipment.setSkillPoint( "1" );
 end
