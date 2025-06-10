@@ -1,0 +1,1 @@
+{"id":"261091bc-a09d-400b-b440-10da36227d41","name":"Bear-examination-taskform","model":{"taskName":"Bear-examination","processId":"Project1.Questprocess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
