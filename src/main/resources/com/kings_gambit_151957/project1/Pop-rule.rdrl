@@ -6,8 +6,8 @@ rule "Pop-rule"
 	dialect "mvel"
 	ruleflow-group "pop"
 	when
-		Equipment : Equipment( this != null )
+		geraltEquipment : Equipment( this != null )
 		Pop : PopDecision( decision == "yes" )
 	then
-		Equipment.setSkillPoint( "1" );
+		geraltEquipment.setSkillPoint( "1" );
 end
