@@ -107,7 +107,7 @@
                 </constraints>
               </constraintList>
               <factType>Equipment</factType>
-              <boundName>Equipment</boundName>
+              <boundName>geraltEquipment</boundName>
               <isNegated>false</isNegated>
               <window>
                 <parameters/>
@@ -195,7 +195,7 @@
             </constraints>
           </constraintList>
           <factType>Equipment</factType>
-          <boundName>Equipemnt</boundName>
+          <boundName>geraltEquipment</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -211,7 +211,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>238</width>
+          <width>100</width>
           <header>Equipemnt is not null</header>
           <constraintValueType>1</constraintValueType>
           <fieldType>Boolean</fieldType>
@@ -389,13 +389,13 @@
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
-          <variable>Equipemnt</variable>
+          <variable>geraltEquipment</variable>
         </org.drools.workbench.models.datamodel.rule.ActionSetField>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>174</width>
+          <width>100</width>
           <header>Set expiriance value</header>
           <varName>$exp</varName>
           <fieldType>Integer</fieldType>
@@ -410,8 +410,8 @@
       <header>Hjalmar win actions - get exp and sword</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>Equipment.setExperience(Equipment.getExperience() + 100);
-Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
+          <text>geraltEquipment.setExperience(geraltEquipment.getExperience() + 100);
+geraltEquipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -423,7 +423,7 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>265</width>
+          <width>100</width>
           <header>Hjalmar win actions - get exp and sword</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
@@ -436,7 +436,7 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
       <header>Give Hjalmar gold</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>Equipment.setGold(Equipment.getGold() - 350);</text>
+          <text>geraltEquipment.setGold(geraltEquipment.getGold() - 350);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -448,7 +448,7 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>150</width>
+          <width>100</width>
           <header>Give Hjalmar gold</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
@@ -578,7 +578,6 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -664,7 +663,6 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">50</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -750,7 +748,6 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">100</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -836,7 +833,6 @@ Equipment.getItems().add(&quot;Hjalmar&apos;s steel sword&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">150</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
