@@ -1,0 +1,1 @@
+{"id":"596efcc1-4a62-428b-906a-caff6b62c66b","name":"Hjort-talk-taskform","model":{"taskName":"Hjort-talk","processId":"Project1.Questprocess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
