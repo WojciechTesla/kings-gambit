@@ -1,0 +1,1 @@
+{"id":"c12012e3-cf80-44f5-8a55-f45b9518ad3e","name":"body-examination-taskform","model":{"taskName":"body-examination","processId":"Project1.Questprocess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
