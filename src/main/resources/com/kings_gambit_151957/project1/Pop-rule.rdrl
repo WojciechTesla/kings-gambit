@@ -9,7 +9,5 @@ rule "Pop-rule"
 	when
 		geraltEquipment : Equipment( this != null , skillPoint != null )
 	then
-		modify( geraltEquipment ) {
-				setSkillPoint( "1" )
-		}
+		geraltEquipment.setSkillPoint("1");update(geraltEquipment);
 end
