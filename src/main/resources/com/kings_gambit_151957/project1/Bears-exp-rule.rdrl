@@ -4,9 +4,10 @@ import java.lang.Number;
 
 rule "Bears-exp-rule"
 	dialect "mvel"
-	ruleflow-group "crach-first-talk"
+	ruleflow-group "bears-exp"
+	no-loop true
 	when
 		geraltEquipment : Equipment( this != null , experience != null )
 	then
-		geraltEquipment.setExperience( geraltEquipment.getExperience() + 500); geraltEquipment.getItems().add("Fate silver sword" );
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 300 );
 end
