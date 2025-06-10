@@ -1,0 +1,1 @@
+{"id":"7ae5c64c-b98e-4a0e-81b1-bb78b5d8d920","name":"mead-examination-taskform","model":{"taskName":"mead-examination","processId":"Project1.Questprocess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
