@@ -6,7 +6,7 @@ rule "clue-cloth-rule"
 	dialect "mvel"
 	ruleflow-group "clue-cloth"
 	when
-		Equipment : Equipment( this != null )
+		geraltEquipment : Equipment( this != null )
 	then
-		Equipment.setExperience(Equipment.getExperience() + 300); Equipment.getItems().add("Arnvald's cloth");
+		Equipment.setExperience( Equipment.getExperience() + 300); Equipment.getItems().add("Arnvald's cloth" );
 end
