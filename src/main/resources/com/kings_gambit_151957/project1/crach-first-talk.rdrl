@@ -6,7 +6,7 @@ rule "crach-first-talk"
 	dialect "mvel"
 	ruleflow-group "crach-first-talk"
 	when
-		Equipment : Equipment( this != null , experience != null )
+		geraltEquipment : Equipment( this != null , experience != null )
 	then
-		Equipment.setExperience(Equipment.getExperience() + 500); Equipment.getItems().add("Fate silver sword");
+		geraltEquipment.setExperience(geraltEquipment.getExperience() + 500); geraltEquipment.getItems().add("Fate silver sword");
 end
