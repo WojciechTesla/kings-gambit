@@ -8,5 +8,5 @@ rule "arnvald-alive-rule"
 	when
 		geraltEquipment : Equipment( this != null )
 	then
-		Equipment.setExperience( Equipment.getExperience() + 200); Equipment.getItems().add("Letter written by the queen" );
+		geraltEquipment.setExperience( geraltEquipment.getExperience() + 200); geraltEquipment.getItems().add("Letter written by the queen" );
 end
