@@ -13,7 +13,7 @@ Follow these simple steps to import the project into your Business Central space
    `https://github.com/WojciechTesla/kings-gambit.git`
 
 4. **Select the Mortgage Project**  
-From the list of available projects, choose the **Mortgage** project.
+From the list of available projects, choose the **Project1** project.
 
 5. **Complete the Import**  
 Click **OK** to finish the process. Your project will then be imported and available for editing in your space.
