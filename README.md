@@ -10,7 +10,7 @@ Follow these simple steps to import the project into your Business Central space
 
 3. **Enter Repository URL**  
    Paste the following URL into the **Repository URL** field:
-   `https://github.com/dromaniv/process-mining.git`
+   `https://github.com/WojciechTesla/kings-gambit.git`
 
 4. **Select the Mortgage Project**  
 From the list of available projects, choose the **Mortgage** project.
